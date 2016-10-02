@@ -9,9 +9,9 @@ while True:
 
     else:
         print ("Sorry, the right number was " + str(num))
-        print ("PAPPA WILL GIVE YOU A PUNISHMENT!")
+        print ("You suck!")
 
-    play = input("Do you want to play again? (yes/no): ")
-    if play == "no":
+    playAgain = raw_input("Do you want to play again? (yes/no): ")
+    if playAgain == 'no':
         break
 print ("Thank you for playing!!!")
