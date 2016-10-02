@@ -11,7 +11,7 @@ while True:
         print ("Sorry, the right number was " + str(num))
         print ("You suck!")
 
-    playAgain = raw_input("Do you want to play again? (yes/no): ")
+    playAgain = input("Do you want to play again? (yes/no): ")
     if playAgain == 'no':
         break
 print ("Thank you for playing!!!")
