@@ -9,7 +9,7 @@ while True:
 
     else:
         print ("Sorry, the right number was " + str(num))
-        print ("You suck!")
+        print ("Try again!")
 
     playAgain = input("Do you want to play again? (yes/no): ")
     if playAgain == 'no':
