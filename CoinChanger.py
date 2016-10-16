@@ -23,11 +23,8 @@ def print_change(startindex, totalnow, strchange):
         print (strchange) #We got a solution. print and return
         soln = 1
     elif totalnow < amount:
-        # OK lets try a solution by adding one more coin
-        # lets start with the same denomination and
-        # then every other denomination that comes after this one.
+        # OK lets try a solution by adding one more coin or each type
         for i in range (startindex, x):
-            # let us print if this works
             soln += print_change(i, totalnow, strchange)
     return soln
 
