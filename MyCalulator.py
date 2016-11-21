@@ -14,16 +14,22 @@ def AskForNumber(Ask):
             print ("Sorry that is not a number")
 
 
-n1 = AskForNumber("What is the first number?")
-n2 = AskForNumber("What is the second number?")
-math = input ("Do you want to Add, Subtract, Multiply, Divide or do Powers?")
+num1 = int(input("What is your first number?"))
+num2 = int(input("What is your second number?"))
+num3 = 0
+math = input("What do you want to do with the numbers? (multiply, divide, add, subtract, powers)")
 if math == "add":
-    print (n1+n2)
+    num3 = num1 + num2
+    print(str(num3) + " is the answer! Thank you.")
 if math == "subtract":
-    print (n1-n2)
+    num3 = num1 - num2
+    print(str(num3) + " is the answer! Thank you.")
 if math == "multiply":
-    print (n1*n2)
+    num3 = num1 * num2
+    print(str(num3) + " is the answer! Thank you.")
 if math == "divide":
-    print (n1/n2)
+    num3 = num1 / num2
+    print(str(num3) + " is the answer! Thank you.")
 if math == "powers":
-    print (n1**n2)
+    num3 = num1 ** num2
+    print(str(num3) + " is the answer! Thank you.")
