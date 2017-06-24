@@ -33,3 +33,8 @@ if math == "divide":
 if math == "powers":
     num3 = num1 ** num2
     print(str(num3) + " is the answer! Thank you.")
+try_again = input("Would you like to try again?(y/n)")
+if try_again = "y":
+    
+if try_again = "n":
+    break
